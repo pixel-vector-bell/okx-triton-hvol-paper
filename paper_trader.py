@@ -6,7 +6,7 @@ import sys, os, json, time, signal, gzip
 from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(__file__))
-from fetch_data import fetch_candles, candles_to_dicts
+from fetch_data import fetch_candles_deep, candles_to_dicts
 from indicators import as_df, ema, atr, rsi, macd, volume_ratio, adx, rate_of_change
 from strategies import _prep
 import pandas as pd
@@ -77,7 +77,7 @@ def compute_signal(pair: str, params: dict, state: dict) -> dict:
     """
     try:
         from fetch_data import fetch_candles_deep, candles_to_dicts as deep_to_dicts
-        raw = fetch_candles_deep(pair, bar="1H", days=5)   # ~120 confirmed 1H bars
+        raw = fetch_candles_deep(pair, bar="1H", days=5, pause=0.05)   # ~120 confirmed 1H bars
         if not raw or len(raw) < 60:
             return {"signal": 0, "pair": pair, "error": "insufficient_data"}
         dicts = deep_to_dicts(raw)
@@ -220,10 +220,10 @@ def gen_blotter(state: dict, watchlist: list):
     # Open position
     pos_html = ""
     if pos:
-        from fetch_data import fetch_candles, candles_to_dicts
+        from fetch_data import fetch_candles_deep, candles_to_dicts
         try:
-            mk_raw = fetch_candles(pos["pair"], "1m", limit=1)
-            mk = float(mk_raw[0][4]) if mk_raw else pos["entry"]
+            mk_raw = fetch_candles_deep(pos["pair"], bar="1m", days=1)
+            mk = float(mk_raw[-1][4]) if mk_raw else pos["entry"]
         except:
             mk = pos["entry"]
         upnl = (mk - pos["entry"]) * pos["qty"]
