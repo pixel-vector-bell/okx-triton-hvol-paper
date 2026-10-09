@@ -1,0 +1,8 @@
+data/
+results/checkpoint.json
+results/all_results.json
+results/research_run.log
+results/research_1h.log
+paper_state.json.tmp
+__pycache__/
+*.pyc
