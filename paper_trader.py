@@ -164,6 +164,42 @@ def paper_sell(state: dict, price: float, reason: str) -> dict:
     return state
 
 
+# ─── Git Push ────────────────────────────────────────────────────────────────
+
+REPO_DIR = os.path.dirname(__file__)
+_last_push_ts = 0.0
+
+def _push_blotter():
+    """Commit and push index.html to pixel-vector-bell/okx-triton-hvol-paper."""
+    global _last_push_ts
+    now = time.time()
+    # Throttle: don't push more than once per 60s
+    if now - _last_push_ts < 58:
+        return
+    try:
+        import subprocess
+        ts = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+        subprocess.run(
+            ["git", "-C", REPO_DIR, "add", "index.html", "paper_state.json"],
+            capture_output=True, timeout=15
+        )
+        result = subprocess.run(
+            ["git", "-C", REPO_DIR, "commit", "-m", f"blotter {ts}"],
+            capture_output=True, text=True, timeout=15
+        )
+        if "nothing to commit" in result.stdout + result.stderr:
+            return
+        subprocess.run(
+            ["git", "-C", REPO_DIR, "push", "origin", "main"],
+            capture_output=True, timeout=30
+        )
+        with open(os.path.join(REPO_DIR, ".last_push"), "w") as f:
+            f.write(str(now))
+        _last_push_ts = now
+    except Exception as e:
+        print(f"  [push] error: {e}")
+
+
 # ─── Blotter HTML Generator ──────────────────────────────────────────────────
 
 def gen_blotter(state: dict, watchlist: list):
@@ -377,6 +413,7 @@ def main():
 
             save_state(state)
             gen_blotter(state, watchlist)
+            _push_blotter()
 
             n = len(state["closed_trades"])
             equity = state["equity"]
