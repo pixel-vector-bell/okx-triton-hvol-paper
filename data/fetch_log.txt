@@ -1,0 +1,109 @@
+Fetching OKX data: 30 pairs × 5 bars | 92 days history
+Method: /market/history-candles + after= pagination + User-Agent (Zeus's approach)
+
+  [skip] BTC-USDT/1H: 2201 bars cached
+  [skip] BTC-USDT/5m: 26423 bars cached
+  [skip] BTC-USDT/15m: 8807 bars cached
+  [skip] BTC-USDT/4H: 1000 bars cached
+  [skip] BTC-USDT/1D: 500 bars cached
+  [skip] ETH-USDT/1H: 2201 bars cached
+  [skip] ETH-USDT/5m: 26423 bars cached
+  [skip] ETH-USDT/15m: 8807 bars cached
+  [skip] ETH-USDT/4H: 1000 bars cached
+  [skip] ETH-USDT/1D: 500 bars cached
+  [skip] SOL-USDT/1H: 2201 bars cached
+  ✓ SOL-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ SOL-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] SOL-USDT/4H: 1000 bars cached
+  [skip] SOL-USDT/1D: 500 bars cached
+  ✓ BNB-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ BNB-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ BNB-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] BNB-USDT/4H: 1000 bars cached
+  [skip] BNB-USDT/1D: 500 bars cached
+  ✓ XRP-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ XRP-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ XRP-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] XRP-USDT/4H: 1000 bars cached
+  [skip] XRP-USDT/1D: 500 bars cached
+  ✓ DOGE-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ DOGE-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ DOGE-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] DOGE-USDT/4H: 1000 bars cached
+  [skip] DOGE-USDT/1D: 500 bars cached
+  ✓ ADA-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ ADA-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ ADA-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] ADA-USDT/4H: 1000 bars cached
+  [skip] ADA-USDT/1D: 500 bars cached
+  ✓ AVAX-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ AVAX-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ AVAX-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] AVAX-USDT/4H: 1000 bars cached
+  [skip] AVAX-USDT/1D: 500 bars cached
+  ✓ LINK-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ LINK-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ LINK-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] LINK-USDT/4H: 1000 bars cached
+  [skip] LINK-USDT/1D: 500 bars cached
+  ✓ DOT-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ DOT-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ DOT-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] DOT-USDT/4H: 1000 bars cached
+  [skip] DOT-USDT/1D: 500 bars cached
+  ✓ LTC-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ LTC-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ LTC-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] LTC-USDT/4H: 1000 bars cached
+  [skip] LTC-USDT/1D: 500 bars cached
+  ✓ UNI-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ UNI-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ UNI-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] UNI-USDT/4H: 1000 bars cached
+  [skip] UNI-USDT/1D: 500 bars cached
+  ✓ NEAR-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ NEAR-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ NEAR-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] NEAR-USDT/4H: 1000 bars cached
+  [skip] NEAR-USDT/1D: 500 bars cached
+  ✓ FIL-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ FIL-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ FIL-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] FIL-USDT/4H: 1000 bars cached
+  [skip] FIL-USDT/1D: 500 bars cached
+  ✓ ONDO-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ ONDO-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ ONDO-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] ONDO-USDT/4H: 1000 bars cached
+  [skip] ONDO-USDT/1D: 500 bars cached
+  ✓ PEPE-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ PEPE-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ PEPE-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] PEPE-USDT/4H: 1000 bars cached
+  [skip] PEPE-USDT/1D: 500 bars cached
+  ✓ WLD-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ WLD-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ WLD-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] WLD-USDT/4H: 1000 bars cached
+  [skip] WLD-USDT/1D: 500 bars cached
+  ✓ SUI-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ SUI-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ SUI-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] SUI-USDT/4H: 1000 bars cached
+  [skip] SUI-USDT/1D: 500 bars cached
+  ✓ TIA-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ TIA-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ TIA-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] TIA-USDT/4H: 1000 bars cached
+  [skip] TIA-USDT/1D: 500 bars cached
+  ✓ HYPE-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ HYPE-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ HYPE-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] HYPE-USDT/4H: 1000 bars cached
+  [skip] HYPE-USDT/1D: 340 bars cached
+  ✓ ZEC-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ ZEC-USDT/5m: 26423 bars | 2026-07-10 → 2026-10-09 (92d)
+  ✓ ZEC-USDT/15m: 8807 bars | 2026-07-10 → 2026-10-09 (92d)
+  [skip] ZEC-USDT/4H: 1000 bars cached
+  [skip] ZEC-USDT/1D: 320 bars cached
+  ✓ XLM-USDT/1H: 2201 bars | 2026-07-10 → 2026-10-09 (92d)
