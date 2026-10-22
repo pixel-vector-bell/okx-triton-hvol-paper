@@ -1,16 +1,6 @@
 {
-  "equity": 2391.219096877232,
-  "open_position": {
-    "pair": "LIT-USDT",
-    "entry": 3.19609725,
-    "qty": 159.82940775452727,
-    "stop": 3.0145,
-    "fee_in": 0.4086642644746986,
-    "mfe": 0.0,
-    "mae": 0.0,
-    "entry_ts": 1792468821046,
-    "bars": 57
-  },
+  "equity": 2977.1264848775945,
+  "open_position": null,
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -83,9 +73,30 @@
       "mfe": 0.0,
       "mae": 0.0,
       "ts_exit": "2026-10-20 00:02"
+    },
+    {
+      "pair": "LIT-USDT",
+      "entry": 3.19609725,
+      "exit": 3.6687647,
+      "qty": 159.82940775452727,
+      "pnl": 74.6684,
+      "pct": 14.7889,
+      "reason": "signal",
+      "mfe": 0.0,
+      "mae": 0.0,
+      "ts_exit": "2026-10-22 14:00"
     }
   ],
   "tape": [
+    {
+      "side": "SELL",
+      "pair": "LIT-USDT",
+      "price": 3.6687647,
+      "note": "signal",
+      "pnl": 74.6684,
+      "pct": 14.7889,
+      "ts": "2026-10-22 14:00"
+    },
     {
       "side": "BUY",
       "pair": "LIT-USDT",
@@ -190,5 +201,5 @@
       "ts": "2026-10-09 07:38"
     }
   ],
-  "total_sells": 6
+  "total_sells": 7
 }
