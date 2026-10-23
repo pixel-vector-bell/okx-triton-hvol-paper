@@ -1,16 +1,6 @@
 {
-  "equity": 2372.2405810737246,
-  "open_position": {
-    "pair": "DOGE-USDT",
-    "entry": 0.08049022499999998,
-    "qty": 7369.575386634045,
-    "stop": 0.07856,
-    "fee_in": 0.47454302481970895,
-    "mfe": 0.0,
-    "mae": 0.0,
-    "entry_ts": 1792746027980,
-    "bars": 13
-  },
+  "equity": 2946.1732162599983,
+  "open_position": null,
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -107,9 +97,30 @@
       "mfe": 0.0,
       "mae": 0.0,
       "ts_exit": "2026-10-23 08:00"
+    },
+    {
+      "pair": "DOGE-USDT",
+      "entry": 0.08049022499999998,
+      "exit": 0.07794100999999999,
+      "qty": 7369.575386634045,
+      "pnl": -19.7207,
+      "pct": -3.1671,
+      "reason": "stop",
+      "mfe": 0.0,
+      "mae": 0.0,
+      "ts_exit": "2026-10-23 23:00"
     }
   ],
   "tape": [
+    {
+      "side": "SELL",
+      "pair": "DOGE-USDT",
+      "price": 0.07794100999999999,
+      "note": "stop",
+      "pnl": -19.7207,
+      "pct": -3.1671,
+      "ts": "2026-10-23 23:00"
+    },
     {
       "side": "BUY",
       "pair": "DOGE-USDT",
@@ -246,5 +257,5 @@
       "ts": "2026-10-09 07:38"
     }
   ],
-  "total_sells": 8
+  "total_sells": 9
 }
