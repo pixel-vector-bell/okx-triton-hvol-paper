@@ -1,16 +1,6 @@
 {
-  "equity": 2512.854047501108,
-  "open_position": {
-    "pair": "WLD-USDT",
-    "entry": 0.5590793999999999,
-    "qty": 829.7592726961999,
-    "stop": 0.5232,
-    "fee_in": 0.3711210530587422,
-    "mfe": 0.0,
-    "mae": 0.0,
-    "entry_ts": 1792695631102,
-    "bars": 12
-  },
+  "equity": 2965.8939051231805,
+  "open_position": null,
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -95,9 +85,30 @@
       "mfe": 0.0,
       "mae": 0.0,
       "ts_exit": "2026-10-22 14:00"
+    },
+    {
+      "pair": "WLD-USDT",
+      "entry": 0.5590793999999999,
+      "exit": 0.54642665,
+      "qty": 829.7592726961999,
+      "pnl": -11.2326,
+      "pct": -2.2631,
+      "reason": "signal",
+      "mfe": 0.0,
+      "mae": 0.0,
+      "ts_exit": "2026-10-23 08:00"
     }
   ],
   "tape": [
+    {
+      "side": "SELL",
+      "pair": "WLD-USDT",
+      "price": 0.54642665,
+      "note": "signal",
+      "pnl": -11.2326,
+      "pct": -2.2631,
+      "ts": "2026-10-23 08:00"
+    },
     {
       "side": "BUY",
       "pair": "WLD-USDT",
@@ -218,5 +229,5 @@
       "ts": "2026-10-09 07:38"
     }
   ],
-  "total_sells": 7
+  "total_sells": 8
 }
