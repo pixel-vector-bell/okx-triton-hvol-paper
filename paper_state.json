@@ -1,6 +1,16 @@
 {
-  "equity": 2940.6553114315407,
-  "open_position": null,
+  "equity": 2352.0537442954037,
+  "open_position": {
+    "pair": "DOGE-USDT",
+    "entry": 0.078209085,
+    "qty": 7519.983928801982,
+    "stop": 0.07667,
+    "fee_in": 0.47050484982904656,
+    "mfe": 0.0,
+    "mae": 0.0,
+    "entry_ts": 1793116853143,
+    "bars": 0
+  },
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -124,6 +134,13 @@
     }
   ],
   "tape": [
+    {
+      "side": "BUY",
+      "pair": "DOGE-USDT",
+      "price": 0.078209085,
+      "note": "hvol_entry",
+      "ts": "2026-10-27 16:00"
+    },
     {
       "side": "SELL",
       "pair": "ONDO-USDT",
