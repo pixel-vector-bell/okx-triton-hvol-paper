@@ -1,6 +1,16 @@
 {
-  "equity": 2938.3759137621146,
-  "open_position": null,
+  "equity": 2675.0891557357168,
+  "open_position": {
+    "pair": "HYPE-USDT",
+    "entry": 88.0269915,
+    "qty": 2.988586710802297,
+    "stop": 78.195,
+    "fee_in": 0.2104610375910454,
+    "mfe": 0.0,
+    "mae": 0.0,
+    "entry_ts": 1793275253491,
+    "bars": 0
+  },
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -136,6 +146,13 @@
     }
   ],
   "tape": [
+    {
+      "side": "BUY",
+      "pair": "HYPE-USDT",
+      "price": 88.0269915,
+      "note": "hvol_entry",
+      "ts": "2026-10-29 12:00"
+    },
     {
       "side": "SELL",
       "pair": "DOGE-USDT",
