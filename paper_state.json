@@ -1,16 +1,6 @@
 {
-  "equity": 2675.0891557357168,
-  "open_position": {
-    "pair": "HYPE-USDT",
-    "entry": 88.0269915,
-    "qty": 2.988586710802297,
-    "stop": 78.195,
-    "fee_in": 0.2104610375910454,
-    "mfe": 0.0,
-    "mae": 0.0,
-    "entry_ts": 1793275253491,
-    "bars": 11
-  },
+  "equity": 2940.8261950989045,
+  "open_position": null,
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -143,9 +133,30 @@
       "mfe": 0.0,
       "mae": 0.0,
       "ts_exit": "2026-10-29 02:01"
+    },
+    {
+      "pair": "HYPE-USDT",
+      "entry": 88.0269915,
+      "exit": 88.9884835,
+      "qty": 2.988586710802297,
+      "pnl": 2.4503,
+      "pct": 1.0923,
+      "reason": "signal",
+      "mfe": 0.0,
+      "mae": 0.0,
+      "ts_exit": "2026-10-30 00:01"
     }
   ],
   "tape": [
+    {
+      "side": "SELL",
+      "pair": "HYPE-USDT",
+      "price": 88.9884835,
+      "note": "signal",
+      "pnl": 2.4503,
+      "pct": 1.0923,
+      "ts": "2026-10-30 00:01"
+    },
     {
       "side": "BUY",
       "pair": "HYPE-USDT",
@@ -330,5 +341,5 @@
       "ts": "2026-10-09 07:38"
     }
   ],
-  "total_sells": 11
+  "total_sells": 12
 }
