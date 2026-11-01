@@ -1,6 +1,16 @@
 {
-  "equity": 2916.701608707423,
-  "open_position": null,
+  "equity": 2332.8946147085453,
+  "open_position": {
+    "pair": "AVAX-USDT",
+    "entry": 8.654325,
+    "qty": 67.40448524194373,
+    "stop": 8.516,
+    "fee_in": 0.46667225739318774,
+    "mfe": 0.0,
+    "mae": 0.0,
+    "entry_ts": 1793505667598,
+    "bars": 0
+  },
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -160,6 +170,13 @@
     }
   ],
   "tape": [
+    {
+      "side": "BUY",
+      "pair": "AVAX-USDT",
+      "price": 8.654325,
+      "note": "hvol_entry",
+      "ts": "2026-11-01 04:01"
+    },
     {
       "side": "SELL",
       "pair": "STRK-USDT",
