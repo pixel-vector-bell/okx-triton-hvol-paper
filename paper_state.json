@@ -1,16 +1,6 @@
 {
-  "equity": 2332.8946147085453,
-  "open_position": {
-    "pair": "AVAX-USDT",
-    "entry": 8.654325,
-    "qty": 67.40448524194373,
-    "stop": 8.516,
-    "fee_in": 0.46667225739318774,
-    "mfe": 0.0,
-    "mae": 0.0,
-    "entry_ts": 1793505667598,
-    "bars": 14
-  },
+  "equity": 2915.252998720705,
+  "open_position": null,
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -167,9 +157,30 @@
       "mfe": 0.0,
       "mae": 0.0,
       "ts_exit": "2026-11-01 03:01"
+    },
+    {
+      "pair": "AVAX-USDT",
+      "entry": 8.654325,
+      "exit": 8.6466745,
+      "qty": 67.40448524194373,
+      "pnl": -1.4486,
+      "pct": -0.0884,
+      "reason": "signal",
+      "mfe": 0.0,
+      "mae": 0.0,
+      "ts_exit": "2026-11-01 19:02"
     }
   ],
   "tape": [
+    {
+      "side": "SELL",
+      "pair": "AVAX-USDT",
+      "price": 8.6466745,
+      "note": "signal",
+      "pnl": -1.4486,
+      "pct": -0.0884,
+      "ts": "2026-11-01 19:02"
+    },
     {
       "side": "BUY",
       "pair": "AVAX-USDT",
@@ -386,5 +397,5 @@
       "ts": "2026-10-09 07:38"
     }
   ],
-  "total_sells": 13
+  "total_sells": 14
 }
