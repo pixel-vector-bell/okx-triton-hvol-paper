@@ -1,6 +1,16 @@
 {
-  "equity": 2888.421809503896,
-  "open_position": null,
+  "equity": 2310.275300113596,
+  "open_position": {
+    "pair": "STRK-USDT",
+    "entry": 0.041290635,
+    "qty": 13990.687280560815,
+    "stop": 0.04003,
+    "fee_in": 0.4621474895206234,
+    "mfe": 0.0,
+    "mae": 0.0,
+    "entry_ts": 1793700007300,
+    "bars": 0
+  },
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -184,6 +194,13 @@
     }
   ],
   "tape": [
+    {
+      "side": "BUY",
+      "pair": "STRK-USDT",
+      "price": 0.041290635,
+      "note": "hvol_entry",
+      "ts": "2026-11-03 10:00"
+    },
     {
       "side": "SELL",
       "pair": "STRK-USDT",
