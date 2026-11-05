@@ -1,16 +1,6 @@
 {
-  "equity": 2311.19795332225,
-  "open_position": {
-    "pair": "ONDO-USDT",
-    "entry": 0.39609795,
-    "qty": 1459.0206067585848,
-    "stop": 0.3763,
-    "fee_in": 0.4623320570758652,
-    "mfe": 0.0,
-    "mae": 0.0,
-    "entry_ts": 1793772068008,
-    "bars": 25
-  },
+  "equity": 2903.2276228740084,
+  "open_position": null,
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -203,9 +193,30 @@
       "mfe": 0.0,
       "mae": 0.0,
       "ts_exit": "2026-11-04 03:01"
+    },
+    {
+      "pair": "ONDO-USDT",
+      "entry": 0.39609795,
+      "exit": 0.40609685,
+      "qty": 1459.0206067585848,
+      "pnl": 13.6523,
+      "pct": 2.5244,
+      "reason": "signal",
+      "mfe": 0.0,
+      "mae": 0.0,
+      "ts_exit": "2026-11-05 08:01"
     }
   ],
   "tape": [
+    {
+      "side": "SELL",
+      "pair": "ONDO-USDT",
+      "price": 0.40609685,
+      "note": "signal",
+      "pnl": 13.6523,
+      "pct": 2.5244,
+      "ts": "2026-11-05 08:01"
+    },
     {
       "side": "BUY",
       "pair": "ONDO-USDT",
@@ -470,5 +481,5 @@
       "ts": "2026-10-09 07:38"
     }
   ],
-  "total_sells": 16
+  "total_sells": 17
 }
