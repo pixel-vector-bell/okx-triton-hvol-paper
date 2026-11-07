@@ -1,6 +1,16 @@
 {
-  "equity": 2903.2276228740084,
-  "open_position": null,
+  "equity": 2322.117581879547,
+  "open_position": {
+    "pair": "STRK-USDT",
+    "entry": 0.04234116,
+    "qty": 13713.500635665194,
+    "stop": 0.04049,
+    "fee_in": 0.46451641965984136,
+    "mfe": 0.0,
+    "mae": 0.0,
+    "entry_ts": 1794031231703,
+    "bars": 0
+  },
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -208,6 +218,13 @@
     }
   ],
   "tape": [
+    {
+      "side": "BUY",
+      "pair": "STRK-USDT",
+      "price": 0.04234116,
+      "note": "hvol_entry",
+      "ts": "2026-11-07 06:00"
+    },
     {
       "side": "SELL",
       "pair": "ONDO-USDT",
