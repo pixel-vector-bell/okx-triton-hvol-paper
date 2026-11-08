@@ -1,16 +1,6 @@
 {
-  "equity": 2303.3837217096243,
-  "open_position": {
-    "pair": "NEAR-USDT",
-    "entry": 3.7388684999999997,
-    "qty": 154.0469055415927,
-    "stop": 3.62,
-    "fee_in": 0.46076889812154914,
-    "mfe": 0.0,
-    "mae": 0.0,
-    "entry_ts": 1794096034470,
-    "bars": 8
-  },
+  "equity": 2872.00114776255,
+  "open_position": null,
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -227,9 +217,30 @@
       "mfe": 0.0,
       "mae": 0.0,
       "ts_exit": "2026-11-07 15:00"
+    },
+    {
+      "pair": "NEAR-USDT",
+      "entry": 3.7388684999999997,
+      "exit": 3.6941520000000003,
+      "qty": 154.0469055415927,
+      "pnl": -7.8045,
+      "pct": -1.196,
+      "reason": "signal",
+      "mfe": 0.0,
+      "mae": 0.0,
+      "ts_exit": "2026-11-08 09:00"
     }
   ],
   "tape": [
+    {
+      "side": "SELL",
+      "pair": "NEAR-USDT",
+      "price": 3.6941520000000003,
+      "note": "signal",
+      "pnl": -7.8045,
+      "pct": -1.196,
+      "ts": "2026-11-08 09:00"
+    },
     {
       "side": "BUY",
       "pair": "NEAR-USDT",
@@ -526,5 +537,5 @@
       "ts": "2026-10-09 07:38"
     }
   ],
-  "total_sells": 18
+  "total_sells": 19
 }
