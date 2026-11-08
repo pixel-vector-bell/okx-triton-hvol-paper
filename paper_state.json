@@ -1,6 +1,16 @@
 {
-  "equity": 2872.00114776255,
-  "open_position": null,
+  "equity": 2297.141398026398,
+  "open_position": {
+    "pair": "PEPE-USDT",
+    "entry": 5.09344545e-06,
+    "qty": 112772431.7833835,
+    "stop": 4.848e-06,
+    "fee_in": 0.45952018364200803,
+    "mfe": 0.0,
+    "mae": 0.0,
+    "entry_ts": 1794150037564,
+    "bars": 0
+  },
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -232,6 +242,13 @@
     }
   ],
   "tape": [
+    {
+      "side": "BUY",
+      "pair": "PEPE-USDT",
+      "price": 5.09344545e-06,
+      "note": "hvol_entry",
+      "ts": "2026-11-08 15:00"
+    },
     {
       "side": "SELL",
       "pair": "NEAR-USDT",
