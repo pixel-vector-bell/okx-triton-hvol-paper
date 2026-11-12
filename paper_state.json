@@ -1,6 +1,16 @@
 {
-  "equity": 2852.1580272201204,
-  "open_position": null,
+  "equity": 2281.2700764917413,
+  "open_position": {
+    "pair": "XLM-USDT",
+    "entry": 0.147603765,
+    "qty": 3864.6141949294047,
+    "stop": 0.14241,
+    "fee_in": 0.45634528435521926,
+    "mfe": 0.0,
+    "mae": 0.0,
+    "entry_ts": 1794510032027,
+    "bars": 0
+  },
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -256,6 +266,13 @@
     }
   ],
   "tape": [
+    {
+      "side": "BUY",
+      "pair": "XLM-USDT",
+      "price": 0.147603765,
+      "note": "hvol_entry",
+      "ts": "2026-11-12 19:00"
+    },
     {
       "side": "SELL",
       "pair": "AVAX-USDT",
