@@ -1,16 +1,6 @@
 {
-  "equity": 2281.2700764917413,
-  "open_position": {
-    "pair": "XLM-USDT",
-    "entry": 0.147603765,
-    "qty": 3864.6141949294047,
-    "stop": 0.14241,
-    "fee_in": 0.45634528435521926,
-    "mfe": 0.0,
-    "mae": 0.0,
-    "entry_ts": 1794510032027,
-    "bars": 37
-  },
+  "equity": 2830.567173258962,
+  "open_position": null,
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -263,9 +253,30 @@
       "mfe": 0.0,
       "mae": 0.0,
       "ts_exit": "2026-11-12 11:00"
+    },
+    {
+      "pair": "XLM-USDT",
+      "entry": 0.147603765,
+      "exit": 0.14224884000000002,
+      "qty": 3864.6141949294047,
+      "pnl": -21.5909,
+      "pct": -3.6279,
+      "reason": "stop",
+      "mfe": 0.0,
+      "mae": 0.0,
+      "ts_exit": "2026-11-14 09:00"
     }
   ],
   "tape": [
+    {
+      "side": "SELL",
+      "pair": "XLM-USDT",
+      "price": 0.14224884000000002,
+      "note": "stop",
+      "pnl": -21.5909,
+      "pct": -3.6279,
+      "ts": "2026-11-14 09:00"
+    },
     {
       "side": "BUY",
       "pair": "XLM-USDT",
@@ -610,5 +621,5 @@
       "ts": "2026-10-09 07:38"
     }
   ],
-  "total_sells": 21
+  "total_sells": 22
 }
