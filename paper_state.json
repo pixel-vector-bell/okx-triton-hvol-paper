@@ -1,16 +1,6 @@
 {
-  "equity": 2511.5251279505896,
-  "open_position": {
-    "pair": "STRK-USDT",
-    "entry": 0.03499748999999999,
-    "qty": 9108.853683387464,
-    "stop": 0.03189,
-    "fee_in": 0.2550296125566527,
-    "mfe": 0.0,
-    "mae": 0.0,
-    "entry_ts": 1794711633658,
-    "bars": 28
-  },
+  "equity": 2825.099263167424,
+  "open_position": null,
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -275,9 +265,30 @@
       "mfe": 0.0,
       "mae": 0.0,
       "ts_exit": "2026-11-14 09:00"
+    },
+    {
+      "pair": "STRK-USDT",
+      "entry": 0.03499748999999999,
+      "exit": 0.034452765,
+      "qty": 9108.853683387464,
+      "pnl": -5.4679,
+      "pct": -1.5565,
+      "reason": "signal",
+      "mfe": 0.0,
+      "mae": 0.0,
+      "ts_exit": "2026-11-16 08:00"
     }
   ],
   "tape": [
+    {
+      "side": "SELL",
+      "pair": "STRK-USDT",
+      "price": 0.034452765,
+      "note": "signal",
+      "pnl": -5.4679,
+      "pct": -1.5565,
+      "ts": "2026-11-16 08:00"
+    },
     {
       "side": "BUY",
       "pair": "STRK-USDT",
@@ -638,5 +649,5 @@
       "ts": "2026-10-09 07:38"
     }
   ],
-  "total_sells": 22
+  "total_sells": 23
 }
