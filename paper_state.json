@@ -1,6 +1,16 @@
 {
-  "equity": 2784.465811069783,
-  "open_position": null,
+  "equity": 2452.6833142944865,
+  "open_position": {
+    "pair": "SOL-USDT",
+    "entry": 70.785375,
+    "qty": 4.683414941983951,
+    "stop": 64.84,
+    "fee_in": 0.2652138263591498,
+    "mfe": 0.0,
+    "mae": 0.0,
+    "entry_ts": 1795269655289,
+    "bars": 0
+  },
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -304,6 +314,13 @@
     }
   ],
   "tape": [
+    {
+      "side": "BUY",
+      "pair": "SOL-USDT",
+      "price": 70.785375,
+      "note": "hvol_entry",
+      "ts": "2026-11-21 14:00"
+    },
     {
       "side": "SELL",
       "pair": "STRK-USDT",
@@ -696,13 +713,6 @@
       "pnl": -6.16,
       "pct": -2.4592,
       "ts": "2026-10-09 09:38"
-    },
-    {
-      "side": "BUY",
-      "pair": "APT-USDT",
-      "price": 0.8388192,
-      "note": "rvol_entry",
-      "ts": "2026-10-09 07:38"
     }
   ],
   "total_sells": 25
