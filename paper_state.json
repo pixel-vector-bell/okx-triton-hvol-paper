@@ -1,6 +1,16 @@
 {
-  "equity": 2781.3591792707607,
-  "open_position": null,
+  "equity": 2224.642325947925,
+  "open_position": {
+    "pair": "LINK-USDT",
+    "entry": 8.8814385,
+    "qty": 62.633078622810054,
+    "stop": 8.718,
+    "fee_in": 0.44501746868332176,
+    "mfe": 0.0,
+    "mae": 0.0,
+    "entry_ts": 1795406455744,
+    "bars": 0
+  },
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -316,6 +326,13 @@
     }
   ],
   "tape": [
+    {
+      "side": "BUY",
+      "pair": "LINK-USDT",
+      "price": 8.8814385,
+      "note": "hvol_entry",
+      "ts": "2026-11-23 04:00"
+    },
     {
       "side": "SELL",
       "pair": "SOL-USDT",
@@ -708,13 +725,6 @@
       "pnl": -7.7551,
       "pct": -1.1361,
       "ts": "2026-10-09 18:37"
-    },
-    {
-      "side": "BUY",
-      "pair": "DOT-USDT",
-      "price": 1.2058026,
-      "note": "rvol_entry",
-      "ts": "2026-10-09 16:36"
     }
   ],
   "total_sells": 26
