@@ -1,16 +1,6 @@
 {
-  "equity": 2224.642325947925,
-  "open_position": {
-    "pair": "LINK-USDT",
-    "entry": 8.8814385,
-    "qty": 62.633078622810054,
-    "stop": 8.718,
-    "fee_in": 0.44501746868332176,
-    "mfe": 0.0,
-    "mae": 0.0,
-    "entry_ts": 1795406455744,
-    "bars": 29
-  },
+  "equity": 2787.4197969703905,
+  "open_position": null,
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -323,9 +313,30 @@
       "mfe": 0.0,
       "mae": 0.0,
       "ts_exit": "2026-11-23 03:01"
+    },
+    {
+      "pair": "LINK-USDT",
+      "entry": 8.8814385,
+      "exit": 8.992501500000001,
+      "qty": 62.633078622810054,
+      "pnl": 6.0606,
+      "pct": 1.2505,
+      "reason": "signal",
+      "mfe": 0.0,
+      "mae": 0.0,
+      "ts_exit": "2026-11-24 10:48"
     }
   ],
   "tape": [
+    {
+      "side": "SELL",
+      "pair": "LINK-USDT",
+      "price": 8.992501500000001,
+      "note": "signal",
+      "pnl": 6.0606,
+      "pct": 1.2505,
+      "ts": "2026-11-24 10:48"
+    },
     {
       "side": "BUY",
       "pair": "LINK-USDT",
@@ -716,16 +727,7 @@
       "price": 0.086633295,
       "note": "hvol_entry",
       "ts": "2026-10-10 03:01"
-    },
-    {
-      "side": "SELL",
-      "pair": "DOT-USDT",
-      "price": 1.1921036500000002,
-      "note": "timeout",
-      "pnl": -7.7551,
-      "pct": -1.1361,
-      "ts": "2026-10-09 18:37"
     }
   ],
-  "total_sells": 26
+  "total_sells": 27
 }
