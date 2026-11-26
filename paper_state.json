@@ -1,16 +1,6 @@
 {
-  "equity": 2255.588055122966,
-  "open_position": {
-    "pair": "SOL-USDT",
-    "entry": 69.484725,
-    "qty": 7.647819237309799,
-    "stop": 65.84,
-    "fee_in": 0.42512529324334486,
-    "mfe": 0.0,
-    "mae": 0.0,
-    "entry_ts": 1795629665505,
-    "bars": 16
-  },
+  "equity": 2794.59325599791,
+  "open_position": null,
   "closed_trades": [
     {
       "pair": "APT-USDT",
@@ -335,9 +325,30 @@
       "mfe": 0.0,
       "mae": 0.0,
       "ts_exit": "2026-11-24 10:48"
+    },
+    {
+      "pair": "SOL-USDT",
+      "entry": 69.484725,
+      "exit": 70.53471499999999,
+      "qty": 7.647819237309799,
+      "pnl": 7.1735,
+      "pct": 1.5111,
+      "reason": "signal",
+      "mfe": 0.0,
+      "mae": 0.0,
+      "ts_exit": "2026-11-26 11:01"
     }
   ],
   "tape": [
+    {
+      "side": "SELL",
+      "pair": "SOL-USDT",
+      "price": 70.53471499999999,
+      "note": "signal",
+      "pnl": 7.1735,
+      "pct": 1.5111,
+      "ts": "2026-11-26 11:01"
+    },
     {
       "side": "BUY",
       "pair": "SOL-USDT",
@@ -728,16 +739,7 @@
       "price": 0.119029485,
       "note": "hvol_entry",
       "ts": "2026-10-11 03:00"
-    },
-    {
-      "side": "SELL",
-      "pair": "DOGE-USDT",
-      "price": 0.085587185,
-      "note": "signal",
-      "pnl": -8.1613,
-      "pct": -1.2075,
-      "ts": "2026-10-11 01:00"
     }
   ],
-  "total_sells": 27
+  "total_sells": 28
 }
